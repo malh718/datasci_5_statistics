@@ -64,4 +64,19 @@ I started off doing some practice with the example that was provided in class wi
 
 My hypothesis for this example is that we are looking at how the number of beds is related to the full time equivalent of employees on the payroll. As the graph shows the linear regression that the more beds there are the more employees that are gonna have to be on working full time. 
 
+This was also proven by the graph that was populated. 
+<img width="428" alt="Screen Shot 2023-10-13 at 3 13 23 PM" src="https://github.com/malh718/datasci_5_statistics/assets/102617334/e645e8c3-d121-4a8c-aa55-e12a5455014c">
+
+
+
+I followed the class example with a linear regression based on some salary data. My code read model8 <- lm(df8$YearsExperience ~ df8$Salary)
+summary(model8) and it showed that the statistics are as follows 
+Residual standard error: 0.5992 on 28 degrees of freedom
+Multiple R-squared:  0.957,	Adjusted R-squared:  0.9554 
+F-statistic: 622.5 on 1 and 28 DF,  p-value: < 2.2e-16. 
+
+My hypothesis for this linear regression would be that the more years experiance you have, the better your salary will be. The null hypothesis would be that they have no correlation whatsoever. The p value present in this example is much lower than .05, and the p value as mentioned above is 2.2e-16. This shows that there is a signficant relationship between YearsExperience and Salary. The direction indicated that the sign of the coefficient for Years of experiance is positive which means as salary increases so does experience. The r value in this example is also high, it is .957 which is very close to one. What this means is that this is strong and has a strong relationship.
+
+ <img width="420" alt="Screen Shot 2023-10-13 at 3 20 52 PM" src="https://github.com/malh718/datasci_5_statistics/assets/102617334/2fe9530b-5e79-42b6-a92a-a698eb793f51">
+
 
