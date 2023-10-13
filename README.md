@@ -27,5 +27,14 @@ sample estimates:
 0.08236471 0.07948529 
 
 
+The welch t-test compares two areas we wanted to look at. Southern states and other states. The t value is 1.129 and the p value is .2652. The mean for the information for cancer in the south is higher than that of the mean of the other, which is .0823 and .0794. What this shows is that the south is a little bit higher than other areas, but not by alot . However since the p value is .26 which is  higher than .05 we cant reject the null hypthesis. 
+
+
+
+## 3. ANOVA:
+
+
+
+
 
 
