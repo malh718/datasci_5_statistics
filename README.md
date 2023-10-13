@@ -58,6 +58,7 @@ My hypothesis for this diet example would be the average weight lost after a per
 
 
 
+## 4. Regression Analysis:
 
 
 
