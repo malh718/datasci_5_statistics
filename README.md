@@ -34,14 +34,11 @@ The welch t-test compares two areas we wanted to look at. Southern states and ot
 ## 3. ANOVA:
 
 I tried 3 different csv files to figure out the ANOVA test however I kept getting the same error. Error in eval(predvars, data, env) : object 'diet6weeks' not found. And then it showed a number of different traceback errors. It was at this point that I decided to redo the class assgignment, and even though it had worked during class it still showed a traceback error. I was confused by this because my class code worked prior, and I even tried refreshing my computer. Still an error showed. I found a very basic CSV file to test this anova out, that had to do with block, color and response. Still there was an error. However, then my laptop died and when it was charged it started working. All three examples that I had created went through with the summaries.  Also at the end of the code, instead of setting it equal to opioids, I just put the name of the dataset and it worked. My numbers did match up with the class numbers and the code ran. 
-class ex
 
-### Df  Sum Sq Mean Sq F value Pr(>F)    
-payer                4  957764  239441   76.42 <2e-16
-rural_urban          1  535719  535719  170.97 <2e-16 
-payer:rural_urban    4  380542   95135   30.36 <2e-16 
-Residuals         1904 5965898    3133                   
----
+class example
+
+<img width="552" alt="Screen Shot 2023-10-13 at 2 45 46 PM" src="https://github.com/malh718/datasci_5_statistics/assets/102617334/d8089989-73ff-4d18-a58c-91e4f5d84220">
+
 
 
 For the class example the we are looking at the overall opioid and its relationship to two independent variables, which are rural_urban and payer. 
@@ -52,14 +49,9 @@ block       23  779.8    33.9
 color        1  437.6   437.6
 block:color 23  395.1    17.2
 
-### diet example 
-Df Sum Sq Mean Sq F value Pr(>F)  
-Age          1      8     7.7   0.104  0.747  
-Height       1    332   332.3   4.491  0.037 
-Age:Height   1    182   182.3   2.464  0.120  
-Residuals   86   6363    74.0                 
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+diet example
+<img width="542" alt="Screen Shot 2023-10-13 at 2 46 00 PM" src="https://github.com/malh718/datasci_5_statistics/assets/102617334/3bab9c04-f6bd-4f1e-9efd-2eaf17f225da">
+
 
 My hypothesis for this diet example would be the average weight lost after a period of 6 weeks varies across patients who are in different age and height groups. In this case the weight6weeks is the dependent variable and the age and height are independent variables.  The dataset for this example is called an2. The p value for height is less than .05 and is .037. This shows that height does affect weight6weeks which is weightloss after 6 weeks. The statistics show that afge is not as significant with a p value of .747. 
 
