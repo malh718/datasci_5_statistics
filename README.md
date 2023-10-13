@@ -60,9 +60,8 @@ My hypothesis for this diet example would be the average weight lost after a per
 
 ## 4. Regression Analysis:
 
+I started off doing some practice with the example that was provided in class with the hospital and employees on payroll with the number of beds. That showed me a summary of model6, which shows a multple r-squared to be.7161 and the standard of error to be 416.5. The P and F value are as follows. F-statistic: 1.259e+04 on 1 and 4993 DF,  p-value: < 2.2e-16. 
 
-
-
-
+My hypothesis for this example is that we are looking at how the number of beds is related to the full time equivalent of employees on the payroll. As the graph shows the linear regression that the more beds there are the more employees that are gonna have to be on working full time. 
 
 
